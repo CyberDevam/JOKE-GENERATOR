@@ -1,5 +1,5 @@
 const joke = document.getElementById('joke');
-const btn = document.getElementById('btn');
+const btn = document.querySelector('.Btn');
 const url = "https://v2.jokeapi.dev/joke/Any?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single"
 
 let getJoke = () =>{
